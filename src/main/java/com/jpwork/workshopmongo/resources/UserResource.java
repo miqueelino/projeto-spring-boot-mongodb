@@ -19,7 +19,7 @@ public class UserResource {
 	@Autowired
 	private UserService service;
 
-	
+	// Endpoint to get all users
 	@GetMapping
 	public ResponseEntity<List<User>> findAll() {
 		List<User> list = service.findAll();
