@@ -1,68 +1,62 @@
-📦 Projeto Spring Boot com MongoDB
+# 📦 Projeto Spring Boot com MongoDB
 
 API REST desenvolvida em Java utilizando Spring Boot e MongoDB para gerenciamento de usuários e suas postagens.
 
-🎯 Objetivo
+---
 
+## 🎯 Objetivo
 Praticar o desenvolvimento de uma API backend utilizando banco NoSQL, aplicando boas práticas de arquitetura em camadas e comunicação REST.
 
-🛠 Tecnologias utilizadas
+---
 
-Java 17
+## 🛠 Tecnologias utilizadas
+- Java 17  
+- Spring Boot  
+- Spring Data MongoDB  
+- Maven  
+- MongoDB  
 
-Spring Boot
+---
 
-Spring Data MongoDB
+## 🧱 Estrutura do projeto
+- **Controller**: Camada responsável pelos endpoints REST  
+- **Service**: Regras de negócio  
+- **Repository**: Acesso ao banco MongoDB  
+- **Domain / DTO**: Modelos da aplicação  
 
-Maven
+---
 
-MongoDB
+## 📌 Funcionalidades
+- Buscar usuário por ID  
+- Retornar postagens associadas a um usuário  
+- Persistência de dados no MongoDB  
+- Relacionamento entre documentos
 
-🧱 Estrutura do projeto
+## 🧪 Testes
+- Endpoints testados manualmente utilizando o Postman
+- Validação das requisições e respostas HTTP
 
-Controller: Camada responsável pelos endpoints REST
 
-Service: Regras de negócio
+---
 
-Repository: Acesso ao banco MongoDB
+## ▶️ Como executar o projeto
+1. Clone o repositório  
+2. Configure o MongoDB (local ou Atlas)  
+3. Ajuste o `application.properties`  
+4. Execute a aplicação pela classe principal  
 
-Domain / DTO: Modelos da aplicação
+---
 
-📌 Funcionalidades
+## 🧠 Conceitos aplicados
+- API REST  
+- Arquitetura em camadas  
+- Spring Data MongoDB  
+- Injeção de dependência  
+- DTO  
+- Boas práticas em Java  
 
-Buscar usuário por ID
+---
 
-Retornar postagens associadas a um usuário
-
-Persistência de dados no MongoDB
-
-Relacionamento entre documentos
-
-▶️ Como executar o projeto
-
-Clone o repositório
-
-Configure o MongoDB (local ou Atlas)
-
-Ajuste o application.properties
-
-Execute a aplicação pela classe principal
-
-🧠 Conceitos aplicados
-
-API REST
-
-Arquitetura em camadas
-
-Spring Data MongoDB
-
-Injeção de dependência
-
-DTO
-
-Boas práticas em Java
-
-👤 Autor
-
-João Miquelino
+## 👤 Autor
+**João Miquelino**  
 Desenvolvedor Backend | Java e Spring Boot
