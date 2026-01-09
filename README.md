@@ -1,10 +1,10 @@
 📦 Projeto Spring Boot com MongoDB
 
-API REST desenvolvida em Java utilizando Spring Boot e MongoDB, voltada para o gerenciamento de usuários e suas postagens, aplicando boas práticas de desenvolvimento backend.
+API REST desenvolvida em Java utilizando Spring Boot e MongoDB para gerenciamento de usuários e suas postagens.
 
 🎯 Objetivo
 
-Praticar o desenvolvimento de uma API backend com banco NoSQL, aplicando arquitetura em camadas, comunicação REST e organização de código seguindo boas práticas do ecossistema Spring.
+Praticar o desenvolvimento de uma API backend utilizando banco NoSQL, aplicando boas práticas de arquitetura em camadas e comunicação REST.
 
 🛠 Tecnologias utilizadas
 
@@ -20,31 +20,29 @@ MongoDB
 
 🧱 Estrutura do projeto
 
-Controller: Exposição dos endpoints REST
+Controller: Camada responsável pelos endpoints REST
 
 Service: Regras de negócio
 
-Repository: Acesso e persistência de dados no MongoDB
+Repository: Acesso ao banco MongoDB
 
-Domain / DTO: Modelos da aplicação e objetos de transferência de dados
+Domain / DTO: Modelos da aplicação
 
 📌 Funcionalidades
 
 Buscar usuário por ID
 
-Listar postagens associadas a um usuário
+Retornar postagens associadas a um usuário
 
 Persistência de dados no MongoDB
 
 Relacionamento entre documentos
 
-Uso de DTOs para controle de dados expostos
-
 ▶️ Como executar o projeto
 
 Clone o repositório
 
-Configure o MongoDB (local ou MongoDB Atlas)
+Configure o MongoDB (local ou Atlas)
 
 Ajuste o application.properties
 
